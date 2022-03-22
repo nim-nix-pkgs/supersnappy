@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-supersnappy-1_1_5.flake = false;
+  inputs.src-supersnappy-1_1_5.ref   = "refs/tags/1.1.5";
   inputs.src-supersnappy-1_1_5.owner = "guzba";
-  inputs.src-supersnappy-1_1_5.ref   = "1_1_5";
   inputs.src-supersnappy-1_1_5.repo  = "supersnappy";
   inputs.src-supersnappy-1_1_5.type  = "github";
   
